@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+	.inputan{
+		background-color: aqua;
+		padding: 30px;
+		border-radius: 7px;
+		width: 70%;
+	}
+
+	.table1{
+		background-color: grey;
+		padding: 30px;
+		border-radius: 7px;
+		width: 80%;
+	}
+
+	input[type="text"],select{
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+
+	}
+	input[type="submit"]{
+		width: 100%;
+ 		background-color: #4CAF50;
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+	table{
+		border: 2px;
+		border-radius: 5px;
+		border-color: black;
+	}
+</style>
+<head>
+	<title>tugas dan form tabel</title>
+</head>
+<body>
+	<div class="inputan">
+		<form >
+		    <label for="fname">Nama Lengkap</label>
+		    <input type="text" id="fname"  placeholder="Nama Lengkap Mahasiswa">
+
+		    <label for="nim">NIM</label>
+		    <input type="text" placeholder="NIM Mahasiswa">
+
+		    <label for="jenisbea">Beasiswa yang diterima</label>
+		    <select id="jenisbea">
+		    	 <option value="" disabled selected id="invalid">Pilih beasiswa yang diterima</option>
+			     <option>Beasiswa Kemendikbud</option>
+			     <option >Beasiswa Unggulan Muda</option>
+			     <option >Beasiswa Sejuta Cita</option>
+		    </select>
+		    <input type="submit" value="Masukkan Data">
+		</form>
+	</div>
+
+	<h2>Daftar Nama Penerima Beasiswa 2020</h2>
+	<div class="table1">
+		<table>
+			<thead>
+				<tr>
+					<th>NO</th>
+					<th>NAMA SISWA</th>
+					<th>NIM</th>
+					<th>PROGRAM STUDI</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>1</th>
+					<td>Bunga Alyssa Cantika</td>
+					<td>192410103089</td>
+					<td>Informatika </td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Bintang dilangit Putra</td>
+					<td>192410103049</td>
+					<td>Informatika </td>
+				</tr>
+				<tr>
+					<th>3</th>
+					<td>Muhammad Umar</td>
+					<td>192410102049</td>
+					<td>Teknologi Informasi </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+
+</body>
+</html>
